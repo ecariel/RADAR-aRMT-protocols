@@ -1,7 +1,7 @@
 {
   "questionnaire": {
     "name": "imager",
-    "showIntroduction: false,
+    "showIntroduction": false,
     "showInCalendar": false,
     "order": 0,
     "questionnaire":{
