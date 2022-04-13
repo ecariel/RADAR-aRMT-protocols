@@ -1,5 +1,5 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART CARMA KCL s1",
   "healthIssues": ["ADHD"],
@@ -12,7 +12,7 @@
       "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "phq8",
+        "name": "adhd_phq8",
         "avsc": "questionnaire"
       },
       "startText": {
