@@ -10,24 +10,24 @@
         "avsc": "questionnaire"
     },
     "startText": {
-        "en": "Time for a new questionnaire!",
+        "en": "Hi there, it's time for a new mental image!",
         "it": "",
-        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "nl": "",
         "da": "",
-        "de": "Zeit fuer einen neuen Fragebogen!",
+        "de": "",
         "es": "",
-        "pl": "Czas na nowy kwestionariusz",
+        "pl": "Cześć, czas na stworzenie nowego wyobrażenia!",
         "hb": ""
     },
     "endText": {
-        "en": "Thanks for filling this out!",
+        "en": "Thank you!",
         "it": "",
-        "nl": "Bedankt voor het invullen!",
+        "nl": "Bedankt!",
         "da": "",
-        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "de": "Vielen Dank!",
         "es": "",
-        "pl": "",
-        "hb": ""
+        "pl": "Dziękuję Ci!",
+        "hb": "תודה" 
     },
       "warn": {
         "en": "",
@@ -47,13 +47,13 @@
      "protocol": {
         "notifcation":{
           "title": {
-             "en": "",
+             "en": "Imagine!",
              "it": "",
+             "es": "",
              "nl": "",
              "da": "",
              "de": "",
-             "es": "",
-             "pl": "",
+             "pl": "Wyobraź sobie!",
              "hb": ""
         }
       }        
