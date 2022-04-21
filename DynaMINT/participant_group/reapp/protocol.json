@@ -470,13 +470,13 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Time for a new questionnaire!",
+        "en": "Hi there, it's time for a new reappraisal!",
         "it": "",
-        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "nl": "",
         "da": "",
-        "de": "Zeit fuer einen neuen Fragebogen!",
+        "de": "",
         "es": "",
-        "pl": "",
+        "pl": "Cześć, czas na nową reinterpretację!",
         "hb": ""
       },
       "endText": {
@@ -531,13 +531,13 @@
                 },
         "notification": {
             "title": {
-              "en": "Good evening, your evening questionnaire is ready for you.",
+              "en": "Reappraise!",
               "it": "",
               "es": "",
-              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "nl": "",
               "da": "",
               "de": "",
-              "pl": "",
+              "pl": "Zreinterpretuj!",
               "hb": ""
         }
       }
