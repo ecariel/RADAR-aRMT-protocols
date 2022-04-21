@@ -472,9 +472,9 @@
       "startText": {
         "en": "Hi there, it's time for a new mental image!",
         "it": "",
-        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "nl": "",
         "da": "",
-        "de": "Zeit fuer einen neuen Fragebogen!",
+        "de": "",
         "es": "",
         "pl": "Cześć, czas na stworzenie nowego wyobrażenia!",
         "hb": ""
@@ -531,13 +531,13 @@
                 },
         "notification": {
             "title": {
-              "en": "Good evening, your evening questionnaire is ready for you.",
+              "en": "Imagine!",
               "it": "",
               "es": "",
-              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "nl": "",
               "da": "",
               "de": "",
-              "pl": "",
+              "pl": "Wyobraź sobie!",
               "hb": ""
         }
       }
