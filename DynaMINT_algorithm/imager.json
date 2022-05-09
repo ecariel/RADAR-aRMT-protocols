@@ -42,7 +42,7 @@
     "estimatedCompletionTime": 3,
     "completionWindow": {
           "unit": "min",
-          "amount": 10
+          "amount": 60
     },
      "protocol": {
         "notifcation":{
