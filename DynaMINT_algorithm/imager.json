@@ -14,10 +14,10 @@
         "it": "",
         "nl": "Hi, het is tijd voor een nieuw mentaal plaatje!",
         "da": "",
-        "de": "",
+        "de": "Hallo, Zeit für ein neues mentales Bild!",
         "es": "",
         "pl": "Cześć, czas na stworzenie nowego wyobrażenia!",
-        "hb": ""
+        "hb": "היי, זה הזמן לדמיון מנטלי שוב"
     },
     "endText": {
         "en": "Thank you!",
@@ -52,9 +52,9 @@
              "es": "",
              "nl": "Inbeelden",
              "da": "",
-             "de": "",
+             "de": "Imaginiere!",
              "pl": "Wyobraź sobie!",
-             "hb": ""
+             "hb": "תדמיין"
         }
       }        
     }    
