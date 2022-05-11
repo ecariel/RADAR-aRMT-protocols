@@ -1,5 +1,5 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART CARMA KCL s1",
   "healthIssues": ["ADHD"],
@@ -505,14 +505,6 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
-        },
-        "notification": {
-          "title": {
-            "en": "Thank you so much!"
-          },
-          "text": {
-            "en": "You have completed the study!"
-          }
         }
       }
     },
@@ -569,14 +561,6 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
-        },
-        "notification": {
-          "title": {
-            "en": "Thank you so much!"
-          },
-          "text": {
-            "en": "You have completed the study!"
-          }
         }
       }
     },
@@ -633,14 +617,6 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
-        },
-        "notification": {
-          "title": {
-            "en": "Thank you so much!"
-          },
-          "text": {
-            "en": "You have completed the study!"
-          }
         }
       }
     },
@@ -697,14 +673,6 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
-        },
-        "notification": {
-          "title": {
-            "en": "Thank you so much!"
-          },
-          "text": {
-            "en": "You have completed the study!"
-          }
         }
       }
     },
@@ -761,14 +729,6 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
-        },
-        "notification": {
-          "title": {
-            "en": "Thank you so much!"
-          },
-          "text": {
-            "en": "You have completed the study!"
-          }
         }
       }
     },
@@ -825,14 +785,6 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
-        },
-        "notification": {
-          "title": {
-            "en": "Thank you so much!"
-          },
-          "text": {
-            "en": "You have completed the study!"
-          }
         }
       }
     },
