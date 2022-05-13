@@ -882,6 +882,7 @@
          {
         "name": "ers",
         "showIntroduction": true,
+        "type": "scheduled",
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "ers",
