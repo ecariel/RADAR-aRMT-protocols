@@ -55,6 +55,13 @@
              "es": "",
              "pl": "Zreinterpretuj!",
              "hb": "הערך מחדש"
+        },
+          "text": {
+             "en": "There's an assignment ready for you!",
+             "nl": "Er staat een opdracht voor je klaar!",
+             "de": "Es ist eine Aufgabe für Sie bereit!",
+             "pl": "Jest gotowe zadanie dla Ciebie!",
+             "hb": "יש משימה מוכנה עבורך!"
         }
       }        
     }    
