@@ -1,5 +1,5 @@
 {
-  "version": "0.0.6",
+  "version": "0.1.0",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART CARMA KCL s1",
   "healthIssues": ["ADHD"],
@@ -43,27 +43,27 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [500]
+          "unitsFromZero": [480]
         },
         "reminders": {
           "unit": "hour",
-          "amount": 0,
-          "repeat": 0
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+            "en": "Please finish them within 3 days."
           }
         }
       }
@@ -107,27 +107,27 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [510]
+          "unitsFromZero": [480]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+            "en": "Please finish them within 3 days."
           }
         }
       }
@@ -171,27 +171,27 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [510]
+          "unitsFromZero": [480]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+            "en": "Please finish them within 3 days."
           }
         }
       }
@@ -235,27 +235,27 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [520]
+          "unitsFromZero": [480]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+            "en": "Please finish them within 3 days."
           }
         }
       }
@@ -299,27 +299,27 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [480]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+            "en": "Please finish them within 3 days."
           }
         }
       }
@@ -367,7 +367,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [1200]
         },
         "reminders": {
           "unit": "day",
@@ -383,7 +383,7 @@
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+            "en": "Please finish them within 3 days."
           }
         }
       }
@@ -427,27 +427,27 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 7
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [550]
+          "unitsFromZero": [480]
         },
         "reminders": {
           "unit": "hour",
-          "amount": 28,
-          "repeat": 2
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+            "en": "Please finish them within 3 days."
           }
         }
       }
@@ -491,20 +491,28 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [480]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days."
+          }
         }
       }
     },
@@ -547,20 +555,28 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [480]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days."
+          }
         }
       }
     },
@@ -603,20 +619,28 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [480]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days."
+          }
         }
       }
     },
@@ -659,20 +683,28 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [480]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days."
+          }
         }
       }
     },
@@ -715,20 +747,28 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [480]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days."
+          }
         }
       }
     },
@@ -771,20 +811,28 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [480]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days."
+          }
         }
       }
     },
@@ -793,7 +841,7 @@
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 4,
+      "order": 10,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "art_cognitive_test",
@@ -826,35 +874,35 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
+          "unit": "month",
+          "amount": 6
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [480]
         },
         "reminders": {
-          "unit": "day",
+          "unit": "hour",
           "amount": 0,
           "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+            "en": "Please finish them within 3 days."
           }
         }
       }
     },
     {
       "name": "AUDIO_4",
-      "showIntroduction": true,
+      "showIntroduction": false,
       "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -889,20 +937,28 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [690]
+          "unitsFromZero": [480]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days."
+          }
         }
       }
     }
