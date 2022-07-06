@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART CARMA KCL s1",
   "healthIssues": ["ADHD"],
@@ -367,23 +367,23 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1200]
+          "unitsFromZero": [1020]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 3,
+          "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 1
+          "unit": "hour",
+          "amount": 7
         },
         "notification": {
           "title": {
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within the day."
           }
         }
       }
@@ -435,8 +435,8 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 0,
-          "repeat": 0
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
@@ -883,8 +883,8 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 0,
-          "repeat": 0
+          "amount": 24,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
