@@ -208,7 +208,7 @@
           "unit": "min",
           "amount": 180
         },
-        "clinicalProtocol": {
+        "onDemandProtocol": {
                     "requiresInClinicCompletion": false,
                     "repeatAfterClinicVisit": {
                         "unit": "min",
@@ -295,7 +295,7 @@
           "unit": "min",
           "amount": 180
         },
-        "clinicalProtocol": {
+        "onDemandProtocol": {
                     "requiresInClinicCompletion": false,
                     "repeatAfterClinicVisit": {
                         "unit": "min",
@@ -382,7 +382,7 @@
           "unit": "min",
           "amount": 180
         },
-        "clinicalProtocol": {
+        "onDemandProtocol": {
                     "requiresInClinicCompletion": false,
                     "repeatAfterClinicVisit": {
                         "unit": "min",
