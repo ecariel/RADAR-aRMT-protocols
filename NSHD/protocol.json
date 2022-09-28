@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "schemaVersion": "0.0.2",
   "name": "NSHD Project",
   "healthIssues": ["depression"],
@@ -56,17 +56,68 @@
       }
     },
     {
-      "name": "PHQ8_GAD7",
+      "name": "SMWT",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "order": 2,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "smwt",
+        "avsc": "notification"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "Requires a quiet space.",
+        "it": "Richiede uno spazio tranquillo.",
+        "nl": "Vereist een rustige ruimte.",
+        "da": "Kræver et stille rum.",
+        "de": "Benötigt einen ruhigen Platz.",
+        "es": "Requiere un espacio tranquilo."
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [660]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "name": "GHQ12",
       "showIntroduction": false,
       "showInCalendar": true,
       "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "phq8_gad7",
+        "name": "ghq12",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire contains both PHQ8 and GAD7 assessments. Clinicians use it to assess current depression and anxiety in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
+        "en": "This questionnaire is a general health questionnaire.",
         "it": "",
         "nl": "",
         "da": "",
