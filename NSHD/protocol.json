@@ -5,7 +5,7 @@
   "healthIssues": ["depression"],
   "protocols": [
     {
-      "name": "CHAIR_RISES",
+      "name": "Chair Rising",
       "showIntroduction": false,
       "showInCalendar": true,
       "order": 2,
@@ -46,7 +46,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [660]
+          "unitsFromZero": [540]
         },
         "reminders": {
           "unit": "day",
@@ -56,7 +56,7 @@
       }
     },
     {
-      "name": "SMWT",
+      "name": "Walk Test",
       "showIntroduction": false,
       "showInCalendar": true,
       "order": 2,
@@ -97,7 +97,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [660]
+          "unitsFromZero": [540]
         },
         "reminders": {
           "unit": "day",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "name": "GHQ12",
+      "name": "General Health",
       "showIntroduction": false,
       "showInCalendar": true,
       "order": 1,
@@ -162,7 +162,7 @@
       }
     },
     {
-      "name": "EQ5D5L",
+      "name": "Quality of Life",
       "showIntroduction": false,
       "showInCalendar": true,
       "order": 2,
@@ -203,7 +203,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [600]
+          "unitsFromZero": [540]
         },
         "reminders": {
           "unit": "day",
@@ -217,7 +217,7 @@
       }
     },
     {
-      "name": "ONS2",
+      "name": "Wellbeing",
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -255,8 +255,8 @@
           "amount": 1
         },
         "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [11]
+          "unit": "min",
+          "unitsFromZero": [540]
         },
         "reminders": {
           "unit": "day",
