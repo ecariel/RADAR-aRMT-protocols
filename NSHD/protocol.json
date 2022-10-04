@@ -1,11 +1,11 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "schemaVersion": "0.0.2",
   "name": "NSHD Project",
   "healthIssues": ["depression"],
   "protocols": [
     {
-      "name": "CHAIR_RISES",
+      "name": "Chair Rising",
       "showIntroduction": false,
       "showInCalendar": true,
       "order": 2,
@@ -31,12 +31,12 @@
         "es": ""
       },
       "warn": {
-        "en": "Requires a quiet space.",
-        "it": "Richiede uno spazio tranquillo.",
-        "nl": "Vereist een rustige ruimte.",
-        "da": "Kræver et stille rum.",
-        "de": "Benötigt einen ruhigen Platz.",
-        "es": "Requiere un espacio tranquilo."
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
       },
       "estimatedCompletionTime": 1,
       "protocol": {
@@ -46,7 +46,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [660]
+          "unitsFromZero": [540]
         },
         "reminders": {
           "unit": "day",
@@ -56,17 +56,68 @@
       }
     },
     {
-      "name": "PHQ8_GAD7",
+      "name": "Walk Test",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "order": 2,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "smwt",
+        "avsc": "notification"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [540]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "name": "General Health",
       "showIntroduction": false,
       "showInCalendar": true,
       "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "phq8_gad7",
+        "name": "ghq12",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire contains both PHQ8 and GAD7 assessments. Clinicians use it to assess current depression and anxiety in patients. Thank you for taking part in this focus group.",
+        "en": "This questionnaire is a general health questionnaire.",
         "it": "",
         "nl": "",
         "da": "",
@@ -111,7 +162,7 @@
       }
     },
     {
-      "name": "EQ5D5L",
+      "name": "Quality of Life",
       "showIntroduction": false,
       "showInCalendar": true,
       "order": 2,
@@ -152,7 +203,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [600]
+          "unitsFromZero": [540]
         },
         "reminders": {
           "unit": "day",
@@ -166,7 +217,7 @@
       }
     },
     {
-      "name": "ONS2",
+      "name": "Wellbeing",
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -204,8 +255,8 @@
           "amount": 1
         },
         "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [11]
+          "unit": "min",
+          "unitsFromZero": [540]
         },
         "reminders": {
           "unit": "day",
