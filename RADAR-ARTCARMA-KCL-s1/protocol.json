@@ -456,7 +456,7 @@
       "name": "FND",
       "showIntroduction": false,
       "showInCalendar": true,
-      "isDemo": true,
+      "isDemo": false,
       "order": 6,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -520,7 +520,7 @@
       "name": "AUDIT",
       "showIntroduction": false,
       "showInCalendar": true,
-      "isDemo": true,
+      "isDemo": false,
       "order": 7,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -584,7 +584,7 @@
       "name": "LTE",
       "showIntroduction": false,
       "showInCalendar": true,
-      "isDemo": true,
+      "isDemo": false,
       "order": 9,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -648,7 +648,7 @@
       "name": "Mediterranean Diet Adherence",
       "showIntroduction": false,
       "showInCalendar": true,
-      "isDemo": true,
+      "isDemo": false,
       "order": 10,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -712,7 +712,7 @@
       "name": "Weight and Waist Circumference",
       "showIntroduction": false,
       "showInCalendar": true,
-      "isDemo": true,
+      "isDemo": false,
       "order": 11,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -776,7 +776,7 @@
       "name": "Blood Pressure Measurement",
       "showIntroduction": false,
       "showInCalendar": true,
-      "isDemo": true,
+      "isDemo": false,
       "order": 12,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
