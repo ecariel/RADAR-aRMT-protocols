@@ -1,6 +1,6 @@
 {
   "version": "0.0.3",
-  "schemaVersion": "0.0.2",
+  "schemaVersion": "0.0.3",
   "name": "NSHD Project",
   "healthIssues": ["depression"],
   "protocols": [
@@ -89,7 +89,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 1,
+      "estimatedCompletionTime": 7,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
