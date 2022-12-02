@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "schemaVersion": "0.0.3",
   "name": "NSHD Project",
   "healthIssues": ["depression"],
@@ -162,7 +162,7 @@
       }
     },
     {
-      "name": "Quality of Life",
+      "name": "Quality Of Life",
       "showIntroduction": false,
       "showInCalendar": true,
       "order": 2,

@@ -67,7 +67,7 @@
         "properties": {
           "name": {
             "type": "string",
-            "pattern": "(^[A-Z0-9][a-z0-9]*( [A-Z0-9][a-z0-9]*)*$)|(^[A-Za-z0-9]*((_|-)[A-Za-z0-9]*)*$)",
+            "pattern": "(^[A-Z0-9]*[A-Za-z0-9]*( [A-Z0-9][A-Za-z0-9\\-]*)*$)|(^[A-Za-z0-9]*((_|-)[A-Za-z0-9]*)*$)",
             "title": "Questionnaire name",
             "examples": [ "PHQ8", "SAMPLE_INPUT_DEMO", "Tandem Walking Test" ],
             "description": "Name of the questionnaire. This should be either space (capitalised) or underscore separated (any case). See example above."
