@@ -1,5 +1,5 @@
 {
-  "version": "0.0.4",
+  "version": "0.0.3",
   "schemaVersion": "0.0.3",
   "name": "NSHD Project",
   "healthIssues": ["depression"],
@@ -42,7 +42,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -52,10 +52,6 @@
           "unit": "day",
           "amount": 0,
           "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 30
         }
       }
     },
@@ -97,7 +93,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -107,10 +103,6 @@
           "unit": "day",
           "amount": 0,
           "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 30
         }
       }
     },
@@ -152,7 +144,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -165,7 +157,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         }
       }
     },
@@ -207,7 +199,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -220,7 +212,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 30
+          "amount": 3
         }
       }
     },
@@ -260,7 +252,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -270,10 +262,6 @@
           "unit": "day",
           "amount": 0,
           "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 30
         }
       }
     }
