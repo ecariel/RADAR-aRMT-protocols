@@ -41,7 +41,7 @@
       "estimatedCompletionTime": 1,
       "protocol": {
         "referenceTimestamp": {
-          "timestamp": "2023-01-02T00:00:00+00:00",
+          "timestamp": "2023-01-02",
           "format": "date"
         },
         "repeatProtocol": {
