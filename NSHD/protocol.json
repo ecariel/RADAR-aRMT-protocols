@@ -1,5 +1,5 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "schemaVersion": "0.0.3",
   "name": "NSHD Project",
   "healthIssues": ["depression"],
@@ -40,6 +40,10 @@
       },
       "estimatedCompletionTime": 1,
       "protocol": {
+        "referenceTimestamp": {
+          "timestamp": "2023-01-02T00:00:00+00:00",
+          "format": "date"
+        },
         "repeatProtocol": {
           "unit": "day",
           "amount": 30
