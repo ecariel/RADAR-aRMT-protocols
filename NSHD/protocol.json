@@ -1,5 +1,5 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "schemaVersion": "0.0.3",
   "name": "NSHD Project",
   "healthIssues": ["depression"],
@@ -40,6 +40,10 @@
       },
       "estimatedCompletionTime": 1,
       "protocol": {
+        "referenceTimestamp": {
+          "timestamp": "2023-01-02",
+          "format": "date"
+        },
         "repeatProtocol": {
           "unit": "day",
           "amount": 30
@@ -95,6 +99,10 @@
       },
       "estimatedCompletionTime": 7,
       "protocol": {
+        "referenceTimestamp": {
+          "timestamp": "2023-01-02",
+          "format": "date"
+        },
         "repeatProtocol": {
           "unit": "day",
           "amount": 30
@@ -150,6 +158,10 @@
       },
       "estimatedCompletionTime": 2,
       "protocol": {
+        "referenceTimestamp": {
+          "timestamp": "2023-01-02",
+          "format": "date"
+        },
         "repeatProtocol": {
           "unit": "day",
           "amount": 30
@@ -205,6 +217,10 @@
       },
       "estimatedCompletionTime": 4,
       "protocol": {
+        "referenceTimestamp": {
+          "timestamp": "2023-01-02",
+          "format": "date"
+        },
         "repeatProtocol": {
           "unit": "day",
           "amount": 30
@@ -258,6 +274,10 @@
       },
       "estimatedCompletionTime": 3,
       "protocol": {
+        "referenceTimestamp": {
+          "timestamp": "2023-01-02",
+          "format": "date"
+        },
         "repeatProtocol": {
           "unit": "day",
           "amount": 30
@@ -311,6 +331,10 @@
       },
       "estimatedCompletionTime": 3,
       "protocol": {
+        "referenceTimestamp": {
+          "timestamp": "2023-01-02",
+          "format": "date"
+        },
         "repeatProtocol": {
           "unit": "day",
           "amount": 30
