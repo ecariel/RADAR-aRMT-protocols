@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART CARMA VHIR s1",
   "healthIssues": ["ADHD"],
@@ -21,7 +21,7 @@
         "nl": "",
         "da": "",
         "de": "",
-        "es": ""
+        "es": "Este cuestionario se conoce como el PHQ8. Los médicos lo utilizan para evaluar la depresión actual en los pacientes. Tenga en cuenta que ninguna de sus respuestas se recopilará hoy. Gracias por participar en este grupo de enfoque."
       },
       "endText": {
         "en": "Thank you for taking the time today.",
@@ -29,7 +29,7 @@
         "nl": "",
         "da": "",
         "de": "",
-        "es": ""
+        "es": "Gracias por tomarse el tiempo hoy."
       },
       "warn": {
         "en": "",
@@ -43,7 +43,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -56,14 +56,16 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -107,7 +109,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -120,14 +122,16 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -171,7 +175,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -184,14 +188,16 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -235,7 +241,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -248,14 +254,16 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -299,7 +307,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -312,14 +320,16 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -380,10 +390,12 @@
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within the day."
+            "en": "Please finish them within the day.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -427,7 +439,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 7
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -440,14 +452,16 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -491,7 +505,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -504,14 +518,16 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -555,7 +571,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -568,14 +584,16 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -636,10 +654,12 @@
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -683,7 +703,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -700,10 +720,12 @@
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -747,7 +769,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -764,10 +786,12 @@
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -811,7 +835,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -828,10 +852,12 @@
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -892,10 +918,12 @@
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
@@ -937,7 +965,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -950,14 +978,16 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire time",
+            "es": "Hora del cuestionario"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please finish them within 3 days.",
+            "es": "Por favor termínelos dentro de 3 días."
           }
         }
       }
