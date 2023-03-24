@@ -376,7 +376,7 @@
         },
         "completionWindow": {
           "unit": "hour",
-          "amount": 7
+          "amount": 10
         },
         "notification": {
           "title": {
