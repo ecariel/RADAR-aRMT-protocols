@@ -347,7 +347,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [60]
+          "unitsFromZero": [7]
         },
         "reminders": {
           "unit": "day",
