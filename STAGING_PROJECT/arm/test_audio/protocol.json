@@ -1,18 +1,196 @@
 {
-  "version": "0.0.6",
-  "schemaVersion": "0.0.3",
-  "name": "NSHD Project",
+  "version": "0.1.0",
+  "schemaVersion": "0.0.2",
+  "name": "RADAR STAGING Project",
   "healthIssues": ["depression"],
   "protocols": [
     {
-      "name": "Chair Rising",
+      "name": "SAMPLE_INPUT_DEMO",
+      "showIntroduction": false,
+      "showInCalendar": false,
+      "isDemo": true,
+      "order": 3,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "sample-field-types",
+        "avsc": "task"
+      },
+      "startText": {
+        "en": "Welcome to testing tasks",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [1000]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "clinicalProtocol": {
+          "requiresInClinicCompletion": true,
+          "repeatAfterClinicVisit": {
+            "unit": "min",
+            "unitsFromZero": [4]
+          }
+        }
+      }
+    },
+    {
+      "name": "THINC-IT",
       "showIntroduction": false,
       "showInCalendar": true,
       "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "chair_rises",
+        "name": "thinc_it",
         "avsc": "notification"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "Requires a quiet space.",
+        "it": "Richiede uno spazio tranquillo.",
+        "nl": "Vereist een rustige ruimte.",
+        "da": "Kræver et stille rum.",
+        "de": "Benötigt einen ruhigen Platz.",
+        "es": "Requiere un espacio tranquilo."
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [660]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "name": "2MW",
+      "showIntroduction": false,
+      "showInCalendar": false,
+      "order": 2,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "2MW_test",
+        "avsc": "task"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [1090]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "clinicalProtocol": {
+          "requiresInClinicCompletion": true,
+          "repeatAfterClinicVisit": {
+            "unit": "min",
+            "unitsFromZero": [10]
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "Task time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          }
+        }
+      }
+    },
+    {
+      "name": "TANDEM WALKING",
+      "showIntroduction": false,
+      "showInCalendar": false,
+      "order": 1,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "tandem_walking_test",
+        "avsc": "task"
       },
       "startText": {
         "en": "",
@@ -40,100 +218,50 @@
       },
       "estimatedCompletionTime": 1,
       "protocol": {
-        "referenceTimestamp": {
-          "timestamp": "2023-01-02",
-          "format": "date"
-        },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [1120]
         },
         "reminders": {
           "unit": "day",
           "amount": 0,
           "repeat": 0
         },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 30
+        "clinicalProtocol": {
+          "requiresInClinicCompletion": true,
+          "repeatAfterClinicVisit": {
+            "unit": "min",
+            "unitsFromZero": [1]
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "Task time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          }
         }
       }
     },
     {
-      "name": "Walk Test",
-      "showIntroduction": false,
-      "showInCalendar": true,
-      "order": 2,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "smwt",
-        "avsc": "notification"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 7,
-      "protocol": {
-        "referenceTimestamp": {
-          "timestamp": "2023-01-02",
-          "format": "date"
-        },
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 30
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [540]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 30
-        }
-      }
-    },
-    {
-      "name": "General Health",
+      "name": "PHQ8",
       "showIntroduction": false,
       "showInCalendar": true,
       "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ghq12",
+        "name": "phq8",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire is a general health questionnaire.",
+        "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
         "it": "",
         "nl": "",
         "da": "",
@@ -158,13 +286,9 @@
       },
       "estimatedCompletionTime": 2,
       "protocol": {
-        "referenceTimestamp": {
-          "timestamp": "2023-01-02",
-          "format": "date"
-        },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -177,18 +301,18 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         }
       }
     },
     {
-      "name": "Quality Of Life",
+      "name": "AUDIO_4",
       "showIntroduction": false,
       "showInCalendar": true,
-      "order": 2,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "eq5d5l",
+        "name": "audio_4",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -208,149 +332,27 @@
         "es": ""
       },
       "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
+        "en": "Find a quiet space.",
+        "it": "Trova uno spazio tranquillo.",
+        "nl": "Zoek een stille ruimte.",
+        "da": "Find et roligt sted.",
+        "de": "Suchen Sie sich einen ruhigen Platz.",
+        "es": "Encuentra un espacio tranquilo."
       },
-      "estimatedCompletionTime": 4,
+      "estimatedCompletionTime": 3,
       "protocol": {
-        "referenceTimestamp": {
-          "timestamp": "2023-01-02",
-          "format": "date"
-        },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         },
         "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [540]
+          "unit": "hour",
+          "unitsFromZero": [7]
         },
         "reminders": {
           "unit": "day",
           "amount": 4,
           "repeat": 1
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 30
-        }
-      }
-    },
-    {
-      "name": "Wellbeing",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ons2",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "referenceTimestamp": {
-          "timestamp": "2023-01-02",
-          "format": "date"
-        },
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 30
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [540]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 30
-        }
-      }
-    },
-    {
-      "name": "Health Snapshot",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "health_snapshot",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "referenceTimestamp": {
-          "timestamp": "2023-01-02",
-          "format": "date"
-        },
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 30
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [540]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 30
         }
       }
     }

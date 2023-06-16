@@ -1,5 +1,5 @@
 {
-  "version": "0.0.6",
+  "version": "0.0.3",
   "schemaVersion": "0.0.3",
   "name": "NSHD Project",
   "healthIssues": ["depression"],
@@ -40,13 +40,9 @@
       },
       "estimatedCompletionTime": 1,
       "protocol": {
-        "referenceTimestamp": {
-          "timestamp": "2023-01-02",
-          "format": "date"
-        },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -56,10 +52,6 @@
           "unit": "day",
           "amount": 0,
           "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 30
         }
       }
     },
@@ -99,13 +91,9 @@
       },
       "estimatedCompletionTime": 7,
       "protocol": {
-        "referenceTimestamp": {
-          "timestamp": "2023-01-02",
-          "format": "date"
-        },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -115,10 +103,6 @@
           "unit": "day",
           "amount": 0,
           "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 30
         }
       }
     },
@@ -158,13 +142,9 @@
       },
       "estimatedCompletionTime": 2,
       "protocol": {
-        "referenceTimestamp": {
-          "timestamp": "2023-01-02",
-          "format": "date"
-        },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -177,12 +157,12 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         }
       }
     },
     {
-      "name": "Quality Of Life",
+      "name": "Quality of Life",
       "showIntroduction": false,
       "showInCalendar": true,
       "order": 2,
@@ -217,13 +197,9 @@
       },
       "estimatedCompletionTime": 4,
       "protocol": {
-        "referenceTimestamp": {
-          "timestamp": "2023-01-02",
-          "format": "date"
-        },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -236,7 +212,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 30
+          "amount": 3
         }
       }
     },
@@ -274,13 +250,9 @@
       },
       "estimatedCompletionTime": 3,
       "protocol": {
-        "referenceTimestamp": {
-          "timestamp": "2023-01-02",
-          "format": "date"
-        },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -290,67 +262,6 @@
           "unit": "day",
           "amount": 0,
           "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 30
-        }
-      }
-    },
-    {
-      "name": "Health Snapshot",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "health_snapshot",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "referenceTimestamp": {
-          "timestamp": "2023-01-02",
-          "format": "date"
-        },
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 30
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [540]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 30
         }
       }
     }
