@@ -440,7 +440,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 10
+          "amount": 3
         },
         "notification": {
           "title": {
