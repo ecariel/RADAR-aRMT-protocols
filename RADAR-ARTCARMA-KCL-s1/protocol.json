@@ -1,5 +1,5 @@
 {
-  "version": "0.1.9",
+  "version": "0.1.10",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART CARMA KCL s1",
   "healthIssues": ["ADHD"],
@@ -824,7 +824,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 10
+          "amount": 30
         },
         "notification": {
           "title": {
