@@ -905,7 +905,7 @@
       "showIntroduction": false,
       "order": 13,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/update-audio-q/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio_4",
         "avsc": "questionnaire"
       },
