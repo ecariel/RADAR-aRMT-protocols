@@ -1,5 +1,5 @@
 {
-  "version": "0.0.7",
+  "version": "0.0.8",
   "schemaVersion": "0.0.3",
   "name": "NSHD Project",
   "healthIssues": ["depression"],
@@ -46,7 +46,7 @@
         },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 32
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -107,7 +107,7 @@
         },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 32
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -166,7 +166,7 @@
         },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 32
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -227,7 +227,7 @@
         },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 32
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -286,7 +286,7 @@
         },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 32
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -345,7 +345,7 @@
         },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 32
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -402,7 +402,7 @@
         },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 32
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -459,7 +459,7 @@
         },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 32
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -520,7 +520,7 @@
         },
         "repeatProtocol": {
           "unit": "day",
-          "amount": 30
+          "amount": 32
         },
         "repeatQuestionnaire": {
           "unit": "min",
