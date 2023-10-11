@@ -12,7 +12,7 @@
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/nhs-id-consent/questionnaires/",
           "name": "bhf_study_consent",
-          "avsc": "notification"
+          "avsc": "questionnaire"
         },
         "startText": {
           "en": "",
