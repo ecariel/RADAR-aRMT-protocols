@@ -61,7 +61,7 @@
         "showInCalendar": true,
         "order": 1,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/nhs-id-consent/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/nhs-id-consent/questionnaires/",
           "name": "nhs_id_consent",
           "avsc": "questionnaire"
         },
@@ -116,7 +116,7 @@
         "showInCalendar": true,
         "order": 1,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions-Private/nhs-id-consent/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/nhs-id-consent/questionnaires/",
           "name": "nhs_id",
           "avsc": "questionnaire"
         },
