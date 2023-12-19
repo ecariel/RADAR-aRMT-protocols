@@ -243,8 +243,8 @@
           },
           "reminders": {
             "unit": "hour",
-            "amount": 0,
-            "repeat": 0
+            "amount": 24,
+            "repeat": 1
           },
           "completionWindow": {
             "unit": "day",
