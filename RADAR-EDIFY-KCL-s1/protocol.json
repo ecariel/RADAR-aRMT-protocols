@@ -1,5 +1,5 @@
 {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "schemaVersion": "0.0.1",
     "name": "RADAR EDIFY KCL s1",
     "healthIssues": ["Eating Disorder"],
@@ -16,7 +16,7 @@
           "avsc": "questionnaire"
         },
         "startText": {
-          "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
+          "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients.",
           "it": "",
           "nl": "",
           "da": "",
@@ -80,7 +80,7 @@
           "avsc": "questionnaire"
         },
         "startText": {
-          "en": "",
+          "en": "This questionnaire is known as the GAD7. Clinicians use it to assess anxiety.",
           "it": "",
           "nl": "",
           "da": "",
@@ -144,7 +144,7 @@
           "avsc": "questionnaire"
         },
         "startText": {
-          "en": "",
+          "en": "This questionnaire is known as the ED15. Clinicians use it to assess eating attitudes and behaviours over the last week.",
           "it": "",
           "nl": "",
           "da": "",
@@ -197,7 +197,7 @@
         }
       },
       {
-        "name": "AUDIO_STORY",
+        "name": "SPEECH TASK",
         "showIntroduction": true,
         "showInCalendar": true,
         "isDemo": false,
@@ -256,6 +256,70 @@
             },
             "text": {
               "en": "Please finish them within 1 day."
+            }
+          }
+        }
+      },
+      {
+        "name": "ESM",
+        "showIntroduction": true,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 4,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "esm_story",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients.",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "Thank you for taking the time today.",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 2,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "day",
+            "amount": 1
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [600]
+          },
+          "reminders": {
+            "unit": "hour",
+            "amount": 24,
+            "repeat": 2
+          },
+          "completionWindow": {
+            "unit": "day",
+            "amount": 1
+          },
+          "notification": {
+            "title": {
+              "en": "Questionnaire time"
+            },
+            "text": {
+              "en": "Please finish them within 3 days."
             }
           }
         }
