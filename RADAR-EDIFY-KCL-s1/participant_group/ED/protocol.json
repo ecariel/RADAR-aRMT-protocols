@@ -390,8 +390,8 @@
       },
       {
         "name": "ESM",
-        "showIntroduction": true,
-        "showInCalendar": "once",
+        "showIntroduction": "once",
+        "showInCalendar": false,
         "isDemo": false,
         "order": 4,
         "questionnaire": {
