@@ -1,5 +1,5 @@
 {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "schemaVersion": "0.0.1",
     "name": "RADAR EDIFY KCL s1",
     "healthIssues": ["Eating Disorder"],
@@ -255,7 +255,7 @@
               "en": "Questionnaire time"
             },
             "text": {
-              "en": "Please finish them within 1 day."
+              "en": "Please finish them within 24 hours."
             }
           }
         }
@@ -319,7 +319,7 @@
               "en": "Questionnaire time"
             },
             "text": {
-              "en": "Please finish them within 1 day."
+              "en": "Please finish them within 24 hours."
             }
           }
         }
