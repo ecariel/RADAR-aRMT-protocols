@@ -1,6 +1,6 @@
 {
     "version": "1.4.3",
-    "schemaVersion": "0.0.2",
+    "schemaVersion": "0.0.3",
     "name": "RADAR STAGING Project",
     "healthIssues": ["depression"],
     "protocols": [
@@ -10,7 +10,7 @@
         "showInCalendar": true,
         "order": 2,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/nhs-id-consent/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "bhf_study_consent",
           "avsc": "questionnaire"
         },
@@ -61,7 +61,7 @@
         "showInCalendar": true,
         "order": 1,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/nhs-id-consent/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "nhs_id_consent",
           "avsc": "questionnaire"
         },
@@ -116,7 +116,7 @@
         "showInCalendar": true,
         "order": 1,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/nhs-id-consent/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "nhs_id",
           "avsc": "questionnaire"
         },
