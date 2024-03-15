@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "schemaVersion": "0.0.1",
   "name": "RADAR MAAM QMUL s1",
-  "healthIssues": "ADHD, menstrual, menopause",
+  "healthIssues": ["ADHD", "menstrual", "menopause"],
   "protocols": [
     {
       "name": "PHQ8",
