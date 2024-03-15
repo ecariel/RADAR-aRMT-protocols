@@ -510,7 +510,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            "05:00"
+            480
           ]
         },
         "reminders": {
