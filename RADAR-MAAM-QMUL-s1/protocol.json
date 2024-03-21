@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "schemaVersion": "0.0.1",
   "name": "RADAR MAAM QMUL s1",
-  "healthIssues": "ADHD, menstrual, menopause",
+  "healthIssues": ["ADHD", "menstrual", "menopause"],
   "protocols": [
     {
       "name": "PHQ8",
@@ -510,7 +510,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            "05:00"
+            480
           ]
         },
         "reminders": {
@@ -533,7 +533,7 @@
       }
     },
     {
-      "name": "Period, Pain, and Fatigue",
+      "name": "Period, Pain, And Fatigue",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -599,7 +599,7 @@
       }
     },
     {
-      "name": "ADHD Symptoms and Impairment",
+      "name": "ADHD Symptoms And Impairment",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
