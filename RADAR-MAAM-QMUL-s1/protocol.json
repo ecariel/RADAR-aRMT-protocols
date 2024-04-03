@@ -1,11 +1,11 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "schemaVersion": "0.0.1",
   "name": "RADAR MAAM QMUL s1",
   "healthIssues": ["ADHD", "menstrual", "menopause"],
   "protocols": [
     {
-      "name": "PHQ8",
+      "name": "PHQ-8",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -48,13 +48,13 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            840
           ]
         },
         "reminders": {
           "unit": "hour",
-          "amount": 0,
-          "repeat": 0
+          "amount": 1,
+          "repeat": 1
         },
         "completionWindow": {
           "unit": "day",
@@ -65,13 +65,13 @@
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please complete these questionnaires this evening reflecting on your day. You will also receive a reminder in an hour if you haven't completed them by then."
           }
         }
       }
     },
     {
-      "name": "ARI-Self",
+      "name": "ARI-self",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -114,7 +114,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            840
           ]
         },
         "reminders": {
@@ -131,13 +131,13 @@
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please complete these questionnaires this evening reflecting on your day. You will also receive a reminder in an hour if you haven't completed them by then."
           }
         }
       }
     },
     {
-      "name": "Neuro-QoL",
+      "name": "Neuro QoL",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -180,7 +180,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            840
           ]
         },
         "reminders": {
@@ -197,7 +197,7 @@
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please complete these questionnaires this evening reflecting on your day. You will also receive a reminder in an hour if you haven't completed them by then."
           }
         }
       }
@@ -246,7 +246,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            840
           ]
         },
         "reminders": {
@@ -263,7 +263,7 @@
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please complete these questionnaires this evening reflecting on your day. You will also receive a reminder in an hour if you haven't completed them by then."
           }
         }
       }
@@ -312,7 +312,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            840
           ]
         },
         "reminders": {
@@ -329,13 +329,13 @@
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please complete these questionnaires this evening reflecting on your day. You will also receive a reminder in an hour if you haven't completed them by then."
           }
         }
       }
     },
     {
-      "name": "Period Pain And Fatigue",
+      "name": "Period, Pain And Fatigue",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -378,7 +378,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            840
           ]
         },
         "reminders": {
@@ -395,7 +395,7 @@
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please complete these questionnaires this evening reflecting on your day. You will also receive a reminder in an hour if you haven't completed them by then."
           }
         }
       }
@@ -444,7 +444,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            840
           ]
         },
         "reminders": {
@@ -461,7 +461,7 @@
             "en": "Questionnaire time"
           },
           "text": {
-            "en": "Please finish them within 3 days."
+            "en": "Please complete these questionnaires this evening reflecting on your day. You will also receive a reminder in an hour if you haven't completed them by then."
           }
         }
       }
