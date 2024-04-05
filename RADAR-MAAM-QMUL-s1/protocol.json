@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "schemaVersion": "0.0.1",
   "name": "RADAR MAAM QMUL s1",
   "healthIssues": ["ADHD", "menstrual", "menopause"],
@@ -48,7 +48,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            840
+            1140
           ]
         },
         "reminders": {
@@ -114,7 +114,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            840
+            1140
           ]
         },
         "reminders": {
@@ -180,7 +180,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            840
+            1140
           ]
         },
         "reminders": {
@@ -246,7 +246,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            840
+            1140
           ]
         },
         "reminders": {
@@ -312,7 +312,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            840
+            1140
           ]
         },
         "reminders": {
@@ -378,7 +378,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            840
+            1140
           ]
         },
         "reminders": {
@@ -444,7 +444,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            840
+            1140
           ]
         },
         "reminders": {
