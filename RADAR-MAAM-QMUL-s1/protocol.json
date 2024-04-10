@@ -1,5 +1,5 @@
 {
-  "version": "0.0.4",
+  "version": "0.0.5",
   "schemaVersion": "0.0.1",
   "name": "RADAR MAAM QMUL s1",
   "healthIssues": ["ADHD", "menstrual", "menopause"],
@@ -43,12 +43,12 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 2
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1140
+            2580
           ]
         },
         "reminders": {
@@ -57,8 +57,8 @@
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 1
+          "unit": "hour",
+          "amount": 5
         },
         "notification": {
           "title": {
@@ -109,12 +109,12 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 2
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1140
+            2580
           ]
         },
         "reminders": {
@@ -123,8 +123,8 @@
           "repeat": 0
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 1
+          "unit": "hour",
+          "amount": 5
         },
         "notification": {
           "title": {
@@ -175,12 +175,12 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 2
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1140
+            2580
           ]
         },
         "reminders": {
@@ -189,8 +189,8 @@
           "repeat": 0
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 1
+          "unit": "hour",
+          "amount": 5
         },
         "notification": {
           "title": {
@@ -241,12 +241,12 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 2
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1140
+            2580
           ]
         },
         "reminders": {
@@ -255,8 +255,8 @@
           "repeat": 0
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 1
+          "unit": "hour",
+          "amount": 5
         },
         "notification": {
           "title": {
@@ -321,8 +321,8 @@
           "repeat": 0
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 1
+          "unit": "hour",
+          "amount": 5
         },
         "notification": {
           "title": {
@@ -387,8 +387,8 @@
           "repeat": 0
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 1
+          "unit": "hour",
+          "amount": 5
         },
         "notification": {
           "title": {
@@ -439,7 +439,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 2
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -453,8 +453,8 @@
           "repeat": 0
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 1
+          "unit": "hour",
+          "amount": 5
         },
         "notification": {
           "title": {
