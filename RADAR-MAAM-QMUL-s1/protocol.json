@@ -1,11 +1,11 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "schemaVersion": "0.0.1",
   "name": "RADAR MAAM QMUL s1",
   "healthIssues": ["ADHD", "menstrual", "menopause"],
   "protocols": [
     {
-      "name": "PHQ-8",
+      "name": "Your Mood",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -71,7 +71,7 @@
       }
     },
     {
-      "name": "ARI-self",
+      "name": "Irritability",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -137,7 +137,7 @@
       }
     },
     {
-      "name": "Neuro QoL",
+      "name": "Your Executive Functioning",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -203,7 +203,7 @@
       }
     },
     {
-      "name": "Sensitivity",
+      "name": "Your Sensory Sensitivity",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -335,7 +335,7 @@
       }
     },
     {
-      "name": "Period, Pain And Fatigue",
+      "name": "Your Cycle And Physical Symptoms",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
