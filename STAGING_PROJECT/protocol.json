@@ -1,5 +1,5 @@
 {
-    "version": "0.4.6",
+    "version": "0.4.7",
     "schemaVersion": "0.0.2",
     "name": "RADAR STAGING Project",
     "healthIssues": [
@@ -829,11 +829,11 @@
         }
       },
       {
-        "name": "CNS_COVID19_FOLLOWUP_V3",
+        "name": "HEALTHKIT",
         "showIntroduction": true,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "cns_covid19_followup_v3",
+          "name": "sample_healthkit",
           "avsc": "questionnaire"
         },
         "startText": {
