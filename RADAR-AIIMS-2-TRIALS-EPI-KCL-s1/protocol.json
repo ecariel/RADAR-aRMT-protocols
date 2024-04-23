@@ -821,7 +821,7 @@
         },
         "completionWindow": {
           "unit": "min",
-          "amount": 0.5
+          "amount": 0
         },
         "notification": {
           "title": {
