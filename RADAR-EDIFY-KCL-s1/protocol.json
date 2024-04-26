@@ -1,5 +1,5 @@
 {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "schemaVersion": "0.0.1",
     "name": "RADAR EDIFY KCL s1",
     "healthIssues": ["Eating Disorder"],
@@ -368,37 +368,31 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              10646,
               10796,
               10940,
               11061,
               11139,
               11328,
-              12159,
               12225,
               12306,
               12529,
               12632,
               12707,
-              13510,
               13690,
               13840,
               13940,
               14036,
               14190,
-              14983,
               15065,
               15190,
               15347,
               15528,
               15605,
-              16395,
               16539,
               16680,
               16840,
               16913,
               17014,
-              17929,
               18029,
               18089,
               18240,
@@ -408,8 +402,8 @@
           },
           "reminders": {
             "unit": "hour",
-            "amount": 24,
-            "repeat": 2
+            "amount": 0,
+            "repeat": 0
           },
           "completionWindow": {
             "unit": "day",
@@ -420,7 +414,78 @@
               "en": "Questionnaire time"
             },
             "text": {
-              "en": "Please finish them within 3 days."
+              "en": "Please finish them as soon as possible."
+            }
+          }
+        }
+      },
+      {
+        "name": "ESM Morning",
+        "showIntroduction": "once",
+        "showInCalendar": false,
+        "isDemo": false,
+        "order": 4,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "esm_story_morning",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "This questionnaire is known as the ESM. Clinicians use it to assess subjective experiences in daily life.",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "Thank you for taking the time today.",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 2,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "week",
+            "amount": 12
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [
+              14983,
+              13510,
+              10646,
+              12159,
+              16395,
+              17929
+            ]
+          },
+          "reminders": {
+            "unit": "hour",
+            "amount": 0,
+            "repeat": 0
+          },
+          "completionWindow": {
+            "unit": "day",
+            "amount": 1
+          },
+          "notification": {
+            "title": {
+              "en": "Questionnaire time"
+            },
+            "text": {
+              "en": "Please finish them as soon as possible."
             }
           }
         }
