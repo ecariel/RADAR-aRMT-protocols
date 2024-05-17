@@ -73,7 +73,7 @@
       }
     },
     {
-      "name": "Health and Medication",
+      "name": "Health And Medication",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -205,7 +205,7 @@
       }
     },
     {
-      "name": "Technology usage",
+      "name": "Technology Usage",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -271,7 +271,7 @@
       }
     },
     {
-      "name": "Regular activities",
+      "name": "Regular Activities",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -337,7 +337,7 @@
       }
     },
     {
-      "name": "Non-regular activities",
+      "name": "Nonregular Activities",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -403,7 +403,7 @@
       }
     },
     {
-      "name": "Sleep routines and smartphone usage questionnaire",
+      "name": "Sleep Routines And Smartphone Usage Questionnaire",
       "showIntroduction": false,
       "showInCalendar": false,
       "isDemo": false,
@@ -733,7 +733,7 @@
       }
     },
     {
-      "name": "Sleep quality",
+      "name": "Sleep Quality",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
