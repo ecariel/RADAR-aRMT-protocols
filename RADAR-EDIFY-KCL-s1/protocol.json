@@ -406,8 +406,8 @@
             "repeat": 0
           },
           "completionWindow": {
-            "unit": "hour",
-            "amount": 1
+            "unit": "min",
+            "amount": 15
           },
           "notification": {
             "title": {
@@ -477,8 +477,8 @@
             "repeat": 0
           },
           "completionWindow": {
-            "unit": "day",
-            "amount": 1
+            "unit": "min",
+            "amount": 15
           },
           "notification": {
             "title": {
