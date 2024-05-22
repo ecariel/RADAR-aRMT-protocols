@@ -1,5 +1,5 @@
 {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "schemaVersion": "0.0.1",
     "name": "RADAR EDIFY KCL s1",
     "healthIssues": ["Eating Disorder"],
@@ -470,8 +470,8 @@
             "repeat": 0
           },
           "completionWindow": {
-            "unit": "day",
-            "amount": 1
+            "unit": "min",
+            "amount": 15
           },
           "notification": {
             "title": {
@@ -541,8 +541,8 @@
             "repeat": 0
           },
           "completionWindow": {
-            "unit": "day",
-            "amount": 1
+            "unit": "min",
+            "amount": 15
           },
           "notification": {
             "title": {
