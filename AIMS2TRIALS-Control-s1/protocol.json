@@ -182,7 +182,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            12000
+            480
           ]
         },
         "reminders": {
