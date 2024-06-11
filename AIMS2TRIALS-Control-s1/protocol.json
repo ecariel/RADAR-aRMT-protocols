@@ -11,7 +11,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "demographics",
@@ -77,7 +77,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "health_and_medication",
@@ -143,7 +143,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 5,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "social_responsiveness_scale",
@@ -182,7 +182,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            12000
+            480
           ]
         },
         "reminders": {
@@ -209,7 +209,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "technology_usage",
@@ -275,7 +275,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 2,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "regular_activities",
@@ -341,7 +341,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 2,
+      "order": 4,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "nonregular_activities",
@@ -407,7 +407,7 @@
       "showIntroduction": false,
       "showInCalendar": false,
       "isDemo": false,
-      "order": 2,
+      "order": 6,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "sleep_routine_smartphone_usage",
@@ -473,7 +473,7 @@
       "showIntroduction": false,
       "showInCalendar": false,
       "isDemo": false,
-      "order": 1,
+      "order": 9,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
@@ -539,7 +539,7 @@
       "showIntroduction": false,
       "showInCalendar": false,
       "isDemo": false,
-      "order": 1,
+      "order": 10,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "gad7",
@@ -605,7 +605,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 1,
+      "order": 11,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "social_responsiveness_scale_short",
@@ -671,7 +671,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 1,
+      "order": 8,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "adhd_symptoms",
@@ -737,7 +737,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 1,
+      "order": 7,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "sleep_quality_info",
