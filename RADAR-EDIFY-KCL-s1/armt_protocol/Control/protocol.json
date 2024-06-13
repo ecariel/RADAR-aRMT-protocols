@@ -414,7 +414,7 @@
               "en": "Questionnaire time"
             },
             "text": {
-              "en": "Please finish them as soon as possible."
+              "en": "Please finish them within 15 minutes."
             }
           }
         }
@@ -485,7 +485,7 @@
               "en": "Questionnaire time"
             },
             "text": {
-              "en": "Please finish them as soon as possible."
+              "en": "Please finish them within 15 minutes."
             }
           }
         }
