@@ -1,0 +1,69 @@
+{
+  "questionnaire": {
+    "name": "imager",
+    "showIntroduction": false,
+    "showInCalendar": false,
+    "order": 0,
+    "questionnaire":{
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "EMI_imager",
+        "avsc": "questionnaire"
+    },
+    "startText": {
+        "en": "Hi there, it's time for a new mental image!",
+        "it": "",
+        "nl": "Hi, het is tijd voor een nieuw mentaal plaatje!",
+        "da": "",
+        "de": "Hallo, Zeit für ein neues mentales Bild!",
+        "es": "",
+        "pl": "Cześć, czas na stworzenie nowego wyobrażenia!",
+        "hb": "היי, זה הזמן לדמיון מנטלי שוב"
+    },
+    "endText": {
+        "en": "Thank you!",
+        "it": "",
+        "nl": "Bedankt!",
+        "da": "",
+        "de": "Vielen Dank!",
+        "es": "",
+        "pl": "Dziękuję Ci!",
+        "hb": "תודה" 
+    },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": "",
+        "pl": "",
+        "hb": ""
+    },
+    "estimatedCompletionTime": 3,
+    "completionWindow": {
+          "unit": "min",
+          "amount": 60
+    },
+     "protocol": {
+        "notification":{
+          "title": {
+             "en": "Imagine!",
+             "it": "",
+             "es": "",
+             "nl": "Inbeelden",
+             "da": "",
+             "de": "Imaginiere!",
+             "pl": "Wyobraź sobie!",
+             "hb": "תדמיין"
+        },
+          "text": {
+             "en": "There's an assignment ready for you!",
+             "nl": "Er staat een opdracht voor je klaar!",
+             "de": "Es ist eine Aufgabe für Sie bereit!",
+             "pl": "Jest gotowe zadanie dla Ciebie!",
+             "hb": "יש משימה מוכנה עבורך!"
+        }
+      }        
+    }    
+  }
+}

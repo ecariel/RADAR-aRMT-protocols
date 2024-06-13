@@ -1,0 +1,69 @@
+{
+  "questionnaire": {
+    "name": "REAPPRAISE",
+    "showIntroduction": false,
+    "showInCalendar": false,
+    "order": 0,
+    "questionnaire":{
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "EMI_ReApp",
+        "avsc": "questionnaire"
+    },
+    "startText": {
+        "en": "Hi there, it's time for a new reappraisal!",
+        "it": "",
+        "nl": "Hi, het is tijd om opnieuw te interpreteren!",
+        "da": "",
+        "de": "Hallo, Zeit für eine Neubewertung!",
+        "es": "",
+        "pl": "Cześć, czas na nową reinterpretację!",
+        "hb": "היי, זה הזמן להערכה מחדש שוב"
+    },
+    "endText": {
+        "en": "Thank you!",
+        "it": "",
+        "nl": "Bedankt!",
+        "da": "",
+        "de": "Vielen Dank!",
+        "es": "",
+        "pl": "Dziękuję Ci!",
+        "hb": "תודה"
+    },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": "",
+        "pl": "",
+        "hb": ""
+    },
+    "estimatedCompletionTime": 3,
+    "completionWindow": {
+          "unit": "min",
+          "amount": 60
+    },
+     "protocol": {
+        "notification":{
+          "title": {
+             "en": "Reappraise!",
+             "it": "",
+             "nl": "Opnieuw interpreteren!",
+             "da": "",
+             "de": "Bewerte neu!",
+             "es": "",
+             "pl": "Zreinterpretuj!",
+             "hb": "הערך מחדש"
+        },
+          "text": {
+             "en": "There's an assignment ready for you!",
+             "nl": "Er staat een opdracht voor je klaar!",
+             "de": "Es ist eine Aufgabe für Sie bereit!",
+             "pl": "Jest gotowe zadanie dla Ciebie!",
+             "hb": "יש משימה מוכנה עבורך!"
+        }
+      }        
+    }    
+  }
+}
