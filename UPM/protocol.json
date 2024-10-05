@@ -9,8 +9,6 @@
       {
         "name": "AUDITUPM",
         "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 2,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/ecariel/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "auditupm",
@@ -62,8 +60,6 @@
       {
         "name": "CONTEXT",
         "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 1,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/ecariel/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "context",
@@ -115,9 +111,6 @@
       {
         "name": "GATS",
         "showIntroduction": false,
-        "showInCalendar": true,
-        "isDemo": true,
-        "order": 2,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/ecariel/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "gats",
@@ -169,8 +162,6 @@
       {
         "name": "PANAS",
         "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 2,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/ecariel/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "panas",
@@ -222,8 +213,6 @@
       {
         "name": "IPAQ",
         "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 2,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/ecariel/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "ipaq",
@@ -275,8 +264,6 @@
       {
         "name": "PHQ",
         "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 2,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/ecariel/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "phq",
@@ -328,8 +315,6 @@
       {
         "name": "PSQIUPM",
         "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 2,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/ecariel/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "psqiupm",
@@ -381,8 +366,6 @@
       {
         "name": "PSS",
         "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 2,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/ecariel/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "pss",
@@ -434,8 +417,6 @@
       {
         "name": "STAI",
         "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 2,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/ecariel/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "stai",
@@ -587,4 +568,3 @@
       }
     ]
   }
-  
