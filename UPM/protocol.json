@@ -7,20 +7,20 @@
   ],
   "protocols": [
     {
-      "name": "AUDITUPM",
+      "name": "UCLA",
       "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/ecariel/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "auditupm",
+        "name": "ucla",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire is known as the Alcohol Use Disorders Identification Test",
+        "en": "This questionnaire is known as UCLA Loneliness Scale.",
         "it": "",
         "nl": "",
         "da": "",
         "de": "",
-        "es": "Este cuestionario se conoce como prueba de identificación de trastornos por consumo de alcohol"
+        "es": "Este cuestionario se conoce como Escala de Soledad de UCLA. "
       },
       "endText": {
         "en": "Thank you for taking the time today.",
@@ -28,7 +28,7 @@
         "nl": "",
         "da": "",
         "de": "",
-        "es": "Gracias por tomarse el tiempo hoy."
+        "es": "Gracias por tomarte el tiempo para responder."
       },
       "warn": {
         "en": "",
@@ -47,7 +47,8 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            510,
+            1950
           ]
         },
         "reminders": {
