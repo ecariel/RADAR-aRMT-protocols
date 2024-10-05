@@ -1,9 +1,9 @@
 {
   "version": "0.1.0",
   "schemaVersion": "0.0.2",
-  "name": "aRMT Test",
+  "name": "UPM",
   "healthIssues": [
-    "isolation"
+    "depression"
   ],
   "protocols": [
     {
@@ -28,7 +28,7 @@
         "nl": "",
         "da": "",
         "de": "",
-        "es": "Gracias por tomarte el tiempo para responder."
+        "es": ""
       },
       "warn": {
         "en": "",
@@ -38,7 +38,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 4,
+      "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
